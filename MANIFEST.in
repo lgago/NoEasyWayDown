@@ -1,0 +1,4 @@
+include NEWD/schema.sql
+graft NEWD/static
+graft NEWD/templates
+global-exclude *.pyc

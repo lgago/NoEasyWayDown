@@ -1,60 +1,52 @@
-Luis Gago :: Software Engineer 
-======
-Website built using the Flask Framework. 
+# NEWD Current point: 
+NEWD website repository.
 
-Install
--------
+NEWD is the blog of Luis G.
+------------------------------------------------------------------------------------------------------------------------------
 
-    # clone the repository
-    $ git clone https://github.com/lgago/lgago.github.io
-    $ cd lgago.github.io
-    # checkout the correct version
-    $ git tag  # shows the tagged versions
-    $ git checkout latest-tag-found-above
+NEWD was designed using the Python3 tool Flask: https://flask.palletsprojects.com/en/1.1.x/
 
-Create a virtualenv and activate it::
+## How to clone and run locally:
 
-    $ python3 -m venv venv
-    $ . venv/bin/activate
+### Create a project folder and a venv folder within OR clone this project.
+$git clone https://github.com/lgago/NEWD.git
 
-Or on Windows cmd::
+$cd NEWD
 
-    $ py -3 -m venv venv
-    $ venv\Scripts\activate.bat
+$ python3 -m venv venv
 
-Install Flaskr::
+### Activate the virtual enviornment. 
+$ . venv/bin/activate
 
-    $ pip install -e .
+### Install Flask in you Venv.
+$ pip install flask
 
+OR if you have a setup.py file:
 
-Run
----
+$ pip install -e .
 
+### Set the enviornment variables.
+$ export FLASK_APP=NEWD
 
-    $ export FLASK_APP=flaskr
-    $ export FLASK_ENV=development
-    $ flask init-db
-    $ flask run
+$ export FLASK_ENV=development
 
-Or on Windows cmd::
+$ flask init-db
 
-    > set FLASK_APP=flaskr
-    > set FLASK_ENV=development
-    > flask init-db
-    > flask run
+### Run the flask app.
+$ flask run
 
-Open http://127.0.0.1:5000 in a browser.
+### Navigate to the local URL.
+http://127.0.0.1:5000/
 
+### Test
+$ pip install '.[test]'
 
-Test
-----
+$ pytest
 
+#### Run with coverage report:
 
-    $ pip install '.[test]'
-    $ pytest
+$ coverage run -m pytest
 
-Run with coverage report::
+$ coverage report
 
-    $ coverage run -m pytest
-    $ coverage report
-    $ coverage html  # open htmlcov/index.html in a browser
+$ coverage html  # open htmlcov/index.html in a browser
