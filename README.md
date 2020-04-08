@@ -1,5 +1,5 @@
 # NEWD Current point: 
-NEWD website repository.
+NEWD website repository. This website is hosted on PythonAnywhere at http://noeasywaydown.pythonanywhere.com/
 
 NEWD is the blog of Luis G.
 ------------------------------------------------------------------------------------------------------------------------------
