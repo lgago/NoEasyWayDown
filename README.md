@@ -9,7 +9,7 @@ NEWD was designed using the Python3 tool Flask: https://flask.palletsprojects.co
 ## How to clone and run locally:
 
 ### Create a project folder and a venv folder within OR clone this project.
-$git clone https://github.com/lgago/NEWD.git
+$git clone https://github.com/lgago/NoEasyWayDown.git
 
 $cd NEWD
 
