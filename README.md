@@ -53,9 +53,6 @@ $ coverage html  # open htmlcov/index.html in a browser
 
 #### TO DO:
 
-General: Change the overall format so that people who aren't myself can only log in and comment. And I am the only one 
-who can post actual posts on NEWD.
-
 1. A detail view to show a single post. Click a post’s title to go to its page.
 
 2. Like / unlike a post.
