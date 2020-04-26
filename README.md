@@ -53,7 +53,7 @@ $ coverage html  # open htmlcov/index.html in a browser
 
 #### TO DO:
 
-1. A detail view to show a single post. Click a post’s title to go to its page.
+1. A detail view to show a single post. Click a post’s title to go to its page. [Done]
 
 2. Like / unlike a post.
 
