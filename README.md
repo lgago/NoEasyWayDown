@@ -55,22 +55,24 @@ $ coverage html  # open htmlcov/index.html in a browser
 
 1. A detail view to show a single post. Click a post’s title to go to its page. [DONE-Edit1]
 
-2. Make NoEasyWayDown at the top of each page clickable, and have it return you to the home screen. [In Progress-Edit2]
+2. Make NoEasyWayDown at the top of each page clickable, and have it return you to the home screen. [Done-Edit2]
 
-3. Like / unlike a post. [In Progress-Edit2]
+3. Add error logging for various scenarios. [Done-Edit2]
 
-4. Add error logging for various scenarios. [In Progress-Edit2]
+4. Create two user types. Admin user (myself) and read/comment only user (anyone that isn't me that logs into my blog). [Edit3]
 
-5. Comments.
+5. Like / unlike a post. 
 
-6. Tags. Clicking a tag shows all the posts with that tag.
+6. Comments.
 
-7. A search box that filters the index page by name.
+7. Tags. Clicking a tag shows all the posts with that tag.
 
-8. Paged display. Only show 5 posts per page.
+8. A search box that filters the index page by name.
 
-9. Upload an image to go along with a post.
+9. Paged display. Only show 5 posts per page.
 
-10. Format posts using Markdown.
+10. Upload an image to go along with a post.
 
-11. An RSS feed of new posts.
+11. Format posts using Markdown.
+
+12. An RSS feed of new posts.
