@@ -1,8 +1,8 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - NEWD</title>
+<title>{% block title %}{% endblock %} - NEWD</title> 
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <nav>
-  <h1>NoEasyWayDown</h1>
+  <h1><a class="action" href="{{ url_for('blog.index') }}">NoEasyWayDown</a></h1>
   <ul>
     {% if g.user %}
       <li><span>{{ g.user['username'] }}</span>
