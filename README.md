@@ -59,16 +59,18 @@ $ coverage html  # open htmlcov/index.html in a browser
 
 3. Like / unlike a post. [In Progress-Edit2]
 
-4. Comments.
+4. Add error logging for various scenarios. [In Progress-Edit2]
 
-5. Tags. Clicking a tag shows all the posts with that tag.
+5. Comments.
 
-6. A search box that filters the index page by name.
+6. Tags. Clicking a tag shows all the posts with that tag.
 
-7. Paged display. Only show 5 posts per page.
+7. A search box that filters the index page by name.
 
-8. Upload an image to go along with a post.
+8. Paged display. Only show 5 posts per page.
 
-9. Format posts using Markdown.
+9. Upload an image to go along with a post.
 
-10. An RSS feed of new posts.
+10. Format posts using Markdown.
+
+11. An RSS feed of new posts.
