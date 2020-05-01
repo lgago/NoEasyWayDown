@@ -32,7 +32,7 @@ def singlePost(id):
     post = db.execute(
         "SELECT p.id, title, body, created, author_id, username"
         " FROM post p JOIN user u ON p.author_id = u.id"
-        " WHERE p.id == ?" 
+        " WHERE p.id = ?" 
     , id_tup)
     return render_template("blog/singlePost.html", post=post)
 
@@ -134,19 +134,19 @@ def delete(id):
     return redirect(url_for("blog.index"))
 
 #Make sure to flesh out these error logs. This includes making the function logic and html pages for them.
-# @app.errorhandler(404)
-# def not_found():
-#     """Page not found."""
-#     return make_response(render_template("404.html"), 404)
+@bp.errorhandler(404)
+def not_found():
+    """Page not found."""
+    return render_template("404.html")
 
 
-# @app.errorhandler(400)
-# def bad_request():
-#     """Bad request."""
-#     return make_response(render_template("400.html"), 400)
+@bp.errorhandler(400)
+def bad_request():
+    """Bad request."""
+    return render_template("400.html")
 
 
-# @app.errorhandler(500)
-# def server_error():
-#     """Internal server error."""
-#     return make_response(render_template("500.html"), 500)
+@bp.errorhandler(500)
+def server_error():
+    """Internal server error."""
+    return render_template("500.html")
